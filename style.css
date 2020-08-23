@@ -1,0 +1,89 @@
+body {
+background-image:url('image.jpg');
+}
+
+
+.grid {
+width: 600px;
+height: 500px;
+margin: 0 auto;
+background-color: rgba(158, 122, 122, 0.459);
+padding: 10px 100px 100px 100px;
+border-radius: 10px;
+border: 1px solid #000000;
+box-shadow: 5px 5px 2px #ffffff59;
+}
+
+.grid h1 {
+font-family: "sans-serif";
+background-color: #5312229d;
+border: 1px solid #fffefe;
+font-size: 60px;
+text-align: center;
+color: #ffffff;
+padding: 20px 0px;
+border-radius: 10px;
+}
+
+#score {
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 30px;
+}
+
+
+.grid #question {
+font-family: "monospace";
+font-size: 30px;
+color: rgb(255, 255, 255);
+}
+
+
+.buttons {
+margin-top: 10px;
+}
+
+#bt0, #bt1, #bt2, #bt3 {
+background-color: #5312229d;
+width: 250px;
+font-size: 20px;
+color: #fff;
+border: 1px solid #ffffff;
+border-radius: 10px;
+margin: 10px 40px 10px 0px;
+padding: 20px 20px;
+}
+
+#bt0:hover, #bt1:hover, #bt2:hover, #bt3:hover {
+cursor: pointer;
+background-color: #000000; 
+}   
+
+#bt0: focus, #bt1: focus, #bt2: focus, #bt3: focus {
+outline: 5;
+}
+
+#progress {
+color: #ffffff;
+font-size: 15px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
